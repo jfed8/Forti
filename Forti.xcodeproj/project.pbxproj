@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		915DF6481C0FEA13006A95BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6471C0FEA13006A95BB /* AppDelegate.swift */; };
+		915DF64A1C0FEA13006A95BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6491C0FEA13006A95BB /* ViewController.swift */; };
+		915DF64D1C0FEA13006A95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915DF64B1C0FEA13006A95BB /* Main.storyboard */; };
+		915DF64F1C0FEA13006A95BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915DF64E1C0FEA13006A95BB /* Assets.xcassets */; };
+		915DF6521C0FEA13006A95BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915DF6501C0FEA13006A95BB /* LaunchScreen.storyboard */; };
+		915DF65D1C0FEA13006A95BB /* FortiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF65C1C0FEA13006A95BB /* FortiTests.swift */; };
+		915DF6681C0FEA13006A95BB /* FortiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6671C0FEA13006A95BB /* FortiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		915DF6591C0FEA13006A95BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 915DF63C1C0FEA13006A95BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915DF6431C0FEA13006A95BB;
+			remoteInfo = Forti;
+		};
+		915DF6641C0FEA13006A95BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 915DF63C1C0FEA13006A95BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 915DF6431C0FEA13006A95BB;
+			remoteInfo = Forti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		915DF6441C0FEA13006A95BB /* Forti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		915DF6471C0FEA13006A95BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		915DF6491C0FEA13006A95BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		915DF64C1C0FEA13006A95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		915DF64E1C0FEA13006A95BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		915DF6511C0FEA13006A95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		915DF6531C0FEA13006A95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915DF6581C0FEA13006A95BB /* FortiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		915DF65C1C0FEA13006A95BB /* FortiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortiTests.swift; sourceTree = "<group>"; };
+		915DF65E1C0FEA13006A95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915DF6631C0FEA13006A95BB /* FortiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		915DF6671C0FEA13006A95BB /* FortiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortiUITests.swift; sourceTree = "<group>"; };
+		915DF6691C0FEA13006A95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		915DF6411C0FEA13006A95BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF6551C0FEA13006A95BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF6601C0FEA13006A95BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		915DF63B1C0FEA13006A95BB = {
+			isa = PBXGroup;
+			children = (
+				915DF6461C0FEA13006A95BB /* Forti */,
+				915DF65B1C0FEA13006A95BB /* FortiTests */,
+				915DF6661C0FEA13006A95BB /* FortiUITests */,
+				915DF6451C0FEA13006A95BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		915DF6451C0FEA13006A95BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915DF6441C0FEA13006A95BB /* Forti.app */,
+				915DF6581C0FEA13006A95BB /* FortiTests.xctest */,
+				915DF6631C0FEA13006A95BB /* FortiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		915DF6461C0FEA13006A95BB /* Forti */ = {
+			isa = PBXGroup;
+			children = (
+				915DF6471C0FEA13006A95BB /* AppDelegate.swift */,
+				915DF6491C0FEA13006A95BB /* ViewController.swift */,
+				915DF64B1C0FEA13006A95BB /* Main.storyboard */,
+				915DF64E1C0FEA13006A95BB /* Assets.xcassets */,
+				915DF6501C0FEA13006A95BB /* LaunchScreen.storyboard */,
+				915DF6531C0FEA13006A95BB /* Info.plist */,
+			);
+			path = Forti;
+			sourceTree = "<group>";
+		};
+		915DF65B1C0FEA13006A95BB /* FortiTests */ = {
+			isa = PBXGroup;
+			children = (
+				915DF65C1C0FEA13006A95BB /* FortiTests.swift */,
+				915DF65E1C0FEA13006A95BB /* Info.plist */,
+			);
+			path = FortiTests;
+			sourceTree = "<group>";
+		};
+		915DF6661C0FEA13006A95BB /* FortiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				915DF6671C0FEA13006A95BB /* FortiUITests.swift */,
+				915DF6691C0FEA13006A95BB /* Info.plist */,
+			);
+			path = FortiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		915DF6431C0FEA13006A95BB /* Forti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915DF66C1C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "Forti" */;
+			buildPhases = (
+				915DF6401C0FEA13006A95BB /* Sources */,
+				915DF6411C0FEA13006A95BB /* Frameworks */,
+				915DF6421C0FEA13006A95BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forti;
+			productName = Forti;
+			productReference = 915DF6441C0FEA13006A95BB /* Forti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		915DF6571C0FEA13006A95BB /* FortiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915DF66F1C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiTests" */;
+			buildPhases = (
+				915DF6541C0FEA13006A95BB /* Sources */,
+				915DF6551C0FEA13006A95BB /* Frameworks */,
+				915DF6561C0FEA13006A95BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915DF65A1C0FEA13006A95BB /* PBXTargetDependency */,
+			);
+			name = FortiTests;
+			productName = FortiTests;
+			productReference = 915DF6581C0FEA13006A95BB /* FortiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		915DF6621C0FEA13006A95BB /* FortiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915DF6721C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiUITests" */;
+			buildPhases = (
+				915DF65F1C0FEA13006A95BB /* Sources */,
+				915DF6601C0FEA13006A95BB /* Frameworks */,
+				915DF6611C0FEA13006A95BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				915DF6651C0FEA13006A95BB /* PBXTargetDependency */,
+			);
+			name = FortiUITests;
+			productName = FortiUITests;
+			productReference = 915DF6631C0FEA13006A95BB /* FortiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		915DF63C1C0FEA13006A95BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Forti Athletics Inc.";
+				TargetAttributes = {
+					915DF6431C0FEA13006A95BB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					915DF6571C0FEA13006A95BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 915DF6431C0FEA13006A95BB;
+					};
+					915DF6621C0FEA13006A95BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 915DF6431C0FEA13006A95BB;
+					};
+				};
+			};
+			buildConfigurationList = 915DF63F1C0FEA13006A95BB /* Build configuration list for PBXProject "Forti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 915DF63B1C0FEA13006A95BB;
+			productRefGroup = 915DF6451C0FEA13006A95BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				915DF6431C0FEA13006A95BB /* Forti */,
+				915DF6571C0FEA13006A95BB /* FortiTests */,
+				915DF6621C0FEA13006A95BB /* FortiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		915DF6421C0FEA13006A95BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915DF6521C0FEA13006A95BB /* LaunchScreen.storyboard in Resources */,
+				915DF64F1C0FEA13006A95BB /* Assets.xcassets in Resources */,
+				915DF64D1C0FEA13006A95BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF6561C0FEA13006A95BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF6611C0FEA13006A95BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		915DF6401C0FEA13006A95BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915DF64A1C0FEA13006A95BB /* ViewController.swift in Sources */,
+				915DF6481C0FEA13006A95BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF6541C0FEA13006A95BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915DF65D1C0FEA13006A95BB /* FortiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915DF65F1C0FEA13006A95BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915DF6681C0FEA13006A95BB /* FortiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		915DF65A1C0FEA13006A95BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 915DF6431C0FEA13006A95BB /* Forti */;
+			targetProxy = 915DF6591C0FEA13006A95BB /* PBXContainerItemProxy */;
+		};
+		915DF6651C0FEA13006A95BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 915DF6431C0FEA13006A95BB /* Forti */;
+			targetProxy = 915DF6641C0FEA13006A95BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		915DF64B1C0FEA13006A95BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915DF64C1C0FEA13006A95BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		915DF6501C0FEA13006A95BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915DF6511C0FEA13006A95BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		915DF66A1C0FEA13006A95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		915DF66B1C0FEA13006A95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		915DF66D1C0FEA13006A95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Forti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.Forti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		915DF66E1C0FEA13006A95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Forti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.Forti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		915DF6701C0FEA13006A95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FortiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.FortiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forti.app/Forti";
+			};
+			name = Debug;
+		};
+		915DF6711C0FEA13006A95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FortiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.FortiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forti.app/Forti";
+			};
+			name = Release;
+		};
+		915DF6731C0FEA13006A95BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FortiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.FortiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Forti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		915DF6741C0FEA13006A95BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FortiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.FortiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Forti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		915DF63F1C0FEA13006A95BB /* Build configuration list for PBXProject "Forti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915DF66A1C0FEA13006A95BB /* Debug */,
+				915DF66B1C0FEA13006A95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915DF66C1C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "Forti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915DF66D1C0FEA13006A95BB /* Debug */,
+				915DF66E1C0FEA13006A95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		915DF66F1C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915DF6701C0FEA13006A95BB /* Debug */,
+				915DF6711C0FEA13006A95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		915DF6721C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915DF6731C0FEA13006A95BB /* Debug */,
+				915DF6741C0FEA13006A95BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 915DF63C1C0FEA13006A95BB /* Project object */;
+}
