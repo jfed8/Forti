@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911CFCCB1C23504100BA3992 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CFCCA1C23504100BA3992 /* HomeViewController.swift */; };
+		911CFCD11C2361D200BA3992 /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CFCD01C2361D200BA3992 /* WorkoutTableViewCell.swift */; };
 		915DF6481C0FEA13006A95BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6471C0FEA13006A95BB /* AppDelegate.swift */; };
 		915DF64A1C0FEA13006A95BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6491C0FEA13006A95BB /* ViewController.swift */; };
 		915DF64D1C0FEA13006A95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915DF64B1C0FEA13006A95BB /* Main.storyboard */; };
@@ -14,6 +16,23 @@
 		915DF6521C0FEA13006A95BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915DF6501C0FEA13006A95BB /* LaunchScreen.storyboard */; };
 		915DF65D1C0FEA13006A95BB /* FortiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF65C1C0FEA13006A95BB /* FortiTests.swift */; };
 		915DF6681C0FEA13006A95BB /* FortiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915DF6671C0FEA13006A95BB /* FortiUITests.swift */; };
+		9174C3011C10AB7F001E6EB8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C2FF1C10AB7F001E6EB8 /* Bolts.framework */; };
+		9174C3021C10AB7F001E6EB8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3001C10AB7F001E6EB8 /* Parse.framework */; };
+		9174C30D1C10ABF8001E6EB8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3031C10ABF8001E6EB8 /* AudioToolbox.framework */; };
+		9174C30E1C10ABF8001E6EB8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3041C10ABF8001E6EB8 /* CFNetwork.framework */; };
+		9174C30F1C10ABF8001E6EB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3051C10ABF8001E6EB8 /* CoreGraphics.framework */; };
+		9174C3101C10ABF8001E6EB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3061C10ABF8001E6EB8 /* CoreLocation.framework */; };
+		9174C3111C10ABF8001E6EB8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3071C10ABF8001E6EB8 /* libsqlite3.tbd */; };
+		9174C3121C10ABF8001E6EB8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3081C10ABF8001E6EB8 /* libz.tbd */; };
+		9174C3131C10ABF8001E6EB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3091C10ABF8001E6EB8 /* QuartzCore.framework */; };
+		9174C3141C10ABF8001E6EB8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C30A1C10ABF8001E6EB8 /* Security.framework */; };
+		9174C3151C10ABF8001E6EB8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C30B1C10ABF8001E6EB8 /* StoreKit.framework */; };
+		9174C3161C10ABF8001E6EB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C30C1C10ABF8001E6EB8 /* SystemConfiguration.framework */; };
+		9174C31A1C10AFA5001E6EB8 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9174C3191C10AFA5001E6EB8 /* ParseUI.framework */; };
+		9174C31C1C10B39D001E6EB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174C31B1C10B39D001E6EB8 /* LoginViewController.swift */; };
+		9174C31E1C10F32B001E6EB8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174C31D1C10F32B001E6EB8 /* SignUpViewController.swift */; };
+		9179FD851C370E9500C5228E /* WorkoutTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179FD841C370E9500C5228E /* WorkoutTableView.swift */; };
+		9179FD871C37564000C5228E /* NewWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179FD861C37564000C5228E /* NewWorkoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		911CFCCA1C23504100BA3992 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		911CFCD01C2361D200BA3992 /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
 		915DF6441C0FEA13006A95BB /* Forti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		915DF6471C0FEA13006A95BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		915DF6491C0FEA13006A95BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,24 @@
 		915DF6631C0FEA13006A95BB /* FortiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915DF6671C0FEA13006A95BB /* FortiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortiUITests.swift; sourceTree = "<group>"; };
 		915DF6691C0FEA13006A95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9174C2FF1C10AB7F001E6EB8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Forti/Bolts.framework; sourceTree = "<group>"; };
+		9174C3001C10AB7F001E6EB8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Forti/Parse.framework; sourceTree = "<group>"; };
+		9174C3031C10ABF8001E6EB8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9174C3041C10ABF8001E6EB8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9174C3051C10ABF8001E6EB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9174C3061C10ABF8001E6EB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9174C3071C10ABF8001E6EB8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9174C3081C10ABF8001E6EB8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9174C3091C10ABF8001E6EB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9174C30A1C10ABF8001E6EB8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9174C30B1C10ABF8001E6EB8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9174C30C1C10ABF8001E6EB8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9174C3191C10AFA5001E6EB8 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		9174C31B1C10B39D001E6EB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9174C31D1C10F32B001E6EB8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		9174C3351C11357F001E6EB8 /* Forti-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Forti-Bridging-Header.h"; sourceTree = "<group>"; };
+		9179FD841C370E9500C5228E /* WorkoutTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableView.swift; sourceTree = "<group>"; };
+		9179FD861C37564000C5228E /* NewWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWorkoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9174C30D1C10ABF8001E6EB8 /* AudioToolbox.framework in Frameworks */,
+				9174C30E1C10ABF8001E6EB8 /* CFNetwork.framework in Frameworks */,
+				9174C30F1C10ABF8001E6EB8 /* CoreGraphics.framework in Frameworks */,
+				9174C3101C10ABF8001E6EB8 /* CoreLocation.framework in Frameworks */,
+				9174C3111C10ABF8001E6EB8 /* libsqlite3.tbd in Frameworks */,
+				9174C3121C10ABF8001E6EB8 /* libz.tbd in Frameworks */,
+				9174C3131C10ABF8001E6EB8 /* QuartzCore.framework in Frameworks */,
+				9174C3141C10ABF8001E6EB8 /* Security.framework in Frameworks */,
+				9174C3151C10ABF8001E6EB8 /* StoreKit.framework in Frameworks */,
+				9174C3161C10ABF8001E6EB8 /* SystemConfiguration.framework in Frameworks */,
+				9174C3021C10AB7F001E6EB8 /* Parse.framework in Frameworks */,
+				9174C3011C10AB7F001E6EB8 /* Bolts.framework in Frameworks */,
+				9174C31A1C10AFA5001E6EB8 /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +129,19 @@
 		915DF63B1C0FEA13006A95BB = {
 			isa = PBXGroup;
 			children = (
+				9174C3031C10ABF8001E6EB8 /* AudioToolbox.framework */,
+				9174C3041C10ABF8001E6EB8 /* CFNetwork.framework */,
+				9174C3051C10ABF8001E6EB8 /* CoreGraphics.framework */,
+				9174C3061C10ABF8001E6EB8 /* CoreLocation.framework */,
+				9174C3071C10ABF8001E6EB8 /* libsqlite3.tbd */,
+				9174C3081C10ABF8001E6EB8 /* libz.tbd */,
+				9174C3191C10AFA5001E6EB8 /* ParseUI.framework */,
+				9174C3001C10AB7F001E6EB8 /* Parse.framework */,
+				9174C2FF1C10AB7F001E6EB8 /* Bolts.framework */,
+				9174C3091C10ABF8001E6EB8 /* QuartzCore.framework */,
+				9174C30A1C10ABF8001E6EB8 /* Security.framework */,
+				9174C30B1C10ABF8001E6EB8 /* StoreKit.framework */,
+				9174C30C1C10ABF8001E6EB8 /* SystemConfiguration.framework */,
 				915DF6461C0FEA13006A95BB /* Forti */,
 				915DF65B1C0FEA13006A95BB /* FortiTests */,
 				915DF6661C0FEA13006A95BB /* FortiUITests */,
@@ -97,12 +162,19 @@
 		915DF6461C0FEA13006A95BB /* Forti */ = {
 			isa = PBXGroup;
 			children = (
+				9174C3351C11357F001E6EB8 /* Forti-Bridging-Header.h */,
 				915DF6471C0FEA13006A95BB /* AppDelegate.swift */,
 				915DF6491C0FEA13006A95BB /* ViewController.swift */,
 				915DF64B1C0FEA13006A95BB /* Main.storyboard */,
 				915DF64E1C0FEA13006A95BB /* Assets.xcassets */,
 				915DF6501C0FEA13006A95BB /* LaunchScreen.storyboard */,
 				915DF6531C0FEA13006A95BB /* Info.plist */,
+				9174C31B1C10B39D001E6EB8 /* LoginViewController.swift */,
+				9174C31D1C10F32B001E6EB8 /* SignUpViewController.swift */,
+				911CFCCA1C23504100BA3992 /* HomeViewController.swift */,
+				9179FD841C370E9500C5228E /* WorkoutTableView.swift */,
+				911CFCD01C2361D200BA3992 /* WorkoutTableViewCell.swift */,
+				9179FD861C37564000C5228E /* NewWorkoutViewController.swift */,
 			);
 			path = Forti;
 			sourceTree = "<group>";
@@ -193,6 +265,7 @@
 				TargetAttributes = {
 					915DF6431C0FEA13006A95BB = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = QSZCK35VQS;
 					};
 					915DF6571C0FEA13006A95BB = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -256,8 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9174C31C1C10B39D001E6EB8 /* LoginViewController.swift in Sources */,
 				915DF64A1C0FEA13006A95BB /* ViewController.swift in Sources */,
+				9174C31E1C10F32B001E6EB8 /* SignUpViewController.swift in Sources */,
+				911CFCCB1C23504100BA3992 /* HomeViewController.swift in Sources */,
+				911CFCD11C2361D200BA3992 /* WorkoutTableViewCell.swift in Sources */,
+				9179FD871C37564000C5228E /* NewWorkoutViewController.swift in Sources */,
 				915DF6481C0FEA13006A95BB /* AppDelegate.swift in Sources */,
+				9179FD851C370E9500C5228E /* WorkoutTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +476,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Forti",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Forti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.Forti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Forti/Forti-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -408,10 +495,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Forti",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Forti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Forti-Athletics.Forti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Forti/Forti-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +577,7 @@
 				915DF66E1C0FEA13006A95BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915DF66F1C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +586,7 @@
 				915DF6711C0FEA13006A95BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		915DF6721C0FEA13006A95BB /* Build configuration list for PBXNativeTarget "FortiUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +595,7 @@
 				915DF6741C0FEA13006A95BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
